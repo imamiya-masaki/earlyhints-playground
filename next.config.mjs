@@ -7,7 +7,7 @@ const nextConfig = {
                 headers: [
                   {
                     key: 'Link',
-                    value: '<https://imamiya-masaki.github.io/thirdparty-js/deliver/third-party.js>; rel=preload, </heavy-image.jpg>; rel=preload',
+                    value: '<https://imamiya-masaki.github.io/thirdparty-js/deliver/third-party.js>; rel=preload, <https://earlyhints-test.anpan-playground.com/heavy-image.jpg>; rel=preload',
                   }
                 ],
               },
