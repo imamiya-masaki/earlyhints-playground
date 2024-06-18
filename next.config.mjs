@@ -11,11 +11,6 @@ const nextConfig = {
                   }
                 ],
               },
-              {
-                source: '/nohints',
-                headers: [
-                ],
-              },
         ]
     }
 };
