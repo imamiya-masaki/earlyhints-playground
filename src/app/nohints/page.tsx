@@ -7,6 +7,9 @@ export default async function Home() {
   await sleep(6000)
   return (
     <div className={styles.page}>
+      {/* こちらはearlyhintsを行わない*/}
+      <script async={true} src="https://imamiya-masaki.github.io/thirdparty-js/deliver/third-party2.js"/>
+      {/* earlyhintsを行う */}
       <script async={true} src="https://imamiya-masaki.github.io/thirdparty-js/deliver/third-party.js"/>
       HTML読み込み完了
       <img src={"/heavy-image.jpg"} width={300} alt="heavy-image"></img>
